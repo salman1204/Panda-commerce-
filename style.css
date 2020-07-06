@@ -1,7 +1,9 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
-
+header{
+    opacity: .85;
+}
 h1 {
     font-size: 41px;
 }
@@ -90,4 +92,17 @@ p {
     text-align: center;
     border: none;
     background-color: white;
+}
+
+#subscribe {
+    height: 300px;
+}
+
+#subscribe p {
+    color:gray
+}
+
+footer {
+    text-align: center;
+    
 }
