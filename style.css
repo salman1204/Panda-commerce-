@@ -13,7 +13,7 @@ p {
 }
 
 .container {
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 .pink-bg {
@@ -35,15 +35,19 @@ p {
     padding: 9px 25px;
     border: none;
 }
-.cat1, .cat2, .cat3 {
+
+.cat1,
+.cat2,
+.cat3 {
     border-radius: 10px;
 }
+
 .cat1 {
     background-image: linear-gradient(to right, #FF9C35, #FFD019);
 }
 
 .cat2 {
-    background-image: linear-gradient(to right,#FF589B, #FF136F);
+    background-image: linear-gradient(to right, #FF589B, #FF136F);
 }
 
 .cat3 {
@@ -55,5 +59,35 @@ p {
 }
 
 .categories img {
-    padding:  15px 0;
+    padding: 15px 0;
+}
+
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: .5rem;
+}
+
+.card-deck h4 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-deck h5 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+
+.card-footer {
+    padding-bottom: 40px;
+    text-align: center;
+    border: none;
+    background-color: white;
 }
