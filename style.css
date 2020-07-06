@@ -1,0 +1,36 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 41px;
+}
+
+p{
+    color: #707070;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.container {
+    margin-bottom: 70px;
+}
+
+.pink-bg {
+    background-color: #FEEAE9;
+}
+
+.carousel-item {
+    padding: 20px 40px;
+} 
+
+.price {
+    color: #FF136F ;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom,  #FF589B 0%,  #FF136F 100%);
+    border-radius: 5px;
+    color: #fff;
+    padding: 9px 25px;
+    border: none;
+}
